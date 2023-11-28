@@ -48,6 +48,8 @@ Version: LTS 2021.3.26f1**
 ### Project Requirements: [Requirements](https://github.com/Mick7028/CSU-Senior-Project/blob/ad047f2edbd79d43e1cad58ae43027efb46fcc01/docs/Requirements%20Document%20Fall%202023.pdf/)
 
 ### Project Implementation Description & Explanation:
+[**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
+[**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
 
 ### Test Plan: (Test Plan Link)
 
