@@ -1,9 +1,9 @@
 ﻿## Foreign Language Immersion Virtual Reality (FLIVR) Defense Documentation
 
-**Student: Michael Nicholson
-Graduation Date: December 2023
-Major & Degree: Cybersecurity
-Project Advisor: Dr. Sean Hayes**
+**Student: Michael Nicholson**
+**Graduation Date: December 2023**
+**Major & Degree: Cybersecurity**
+**Project Advisor: Dr. Sean Hayes**
 
 ### Statement of Purpose:
 
