@@ -10,7 +10,19 @@
 
 ### Statement of Purpose:
 
+There are two primary approaches to foreign language acquisition: traditional or academic learning and immersive learning. Academic learning is geared towards attaining proficiency, which involves achieving a systematic understanding of vocabulary, grammar, writing, and practical application. Fluency in a language is a sign of how comfortable and easy it is for a person to utilize the proficiency they possess. Immersive language learning’s main byproduct is fluency and is what everyone experiences learning their native language. Immersive language learning inherently yields fluency, mirroring the natural progression observed in acquiring one's native language.
+
+According to former CEO Michael Schutzler of LiveMocha, a language learning social media site later bought by Rossetta Stone, traditional classroom-based language training results in a 99.5% failure rate of achieving basic conversational fluency (Schutzler). I believe this failure rate is due to methodology of the teaching and a misunderstanding of how the brain chooses to retain and recall information. Foreign Language Immersion Virtual Reality (FLIVR) aims have the opposite approach of traditional methodology which focuses on using only declarative (explicit) memory, towards one that focuses more on engaging a person’s procedural (implicit) memory.
+
 ### Research & Background:
+
+The conventional perspective on language learning often stems from experiences in mandatory high school classes, where the emphasis is placed on continuous and rigorous study of languages such as Spanish or French. While dedicated studying can certainly expedite progress, it is insufficient for achieving fluency. Merely engaging explicit memory without addressing other cognitive processes essential for natural language use hinders the desired outcome of language acquisition.
+
+A telling illustration of this challenge surfaced in advice I received from my high school Spanish teacher, who cautioned against relying on translating Spanish words into English. This practice adds an unnecessary step absent in native language usage. Unlike the effortless recognition of an apple as an apple in one's native language, attempting to translate unfamiliar words creates a cognitive barrier. Many language learners, unsuccessful in their attempts, often grapple with translating in their heads rather than establishing direct associations between words and their corresponding concepts.
+
+Foreign Language Immersion Virtual Reality attempts to addresses this issue by prioritizing object discovery and providing a visual and auditory context for vocabulary. Unlike traditional flashcard-based approaches, FLIVR encourages learners to associate words with tangible objects, mirroring the implicit connections made when remembering names in day-to-day life. Just as a person's significance influences the remembrance of their name, the context in which words are encountered affects language retention.
+
+An example of a practical application of this approach could be demonstrated by a chef seeking to learn ingredient and tool names in a different language. Beyond conventional flashcards, the chef engages with recipes written in the target language, labeling ingredients and tools accordingly. This immersive exposure ensures repeated subconscious encounters with the language, prompting the brain to adapt and form associations without reliance on the native language. Gradually, individuals adopting this methodology develop a "second brain," enabling a seamless transition between their native language and the target language, eliminating the constant need for translation.
 
 ### Project Languages, Software, and Hardware:
 
