@@ -82,3 +82,12 @@ The Quest 3 features color passthrough and has a much wider field of view than t
 This technology could lead to more sophisticated active learning opportunities, incorporating real-life objects and activities in one's home. AI could dynamically change any text observed in real-time into the target language, facilitating activities such as reading books entirely in a different language, or the headset could replace specific vocabulary and phrases, providing an effective method for gradual language script adaptation while allowing users to enjoy their preferred content.
 
 ### Defense Presentation Slides: (Presentation Link)
+
+
+### References:
+
+Schutzler, M. (2013, March 7). _Michael Schutzler's answer to "What is the success rate of learning a foreign language in the world, measured by the number of people who learned a foreign language for 3 years or more and who can express their thoughts in a foreign language?"._ Quora. [https://bit.ly/31UDEq9](https://bit.ly/31UDEq9).
+
+Brito, A. C. (2017). _Effects of Language Immersion versus Classroom Exposure on Advanced French Learners: An ERP Study_. Pursuit - The Journal of Undergraduate Research at The University of Tennessee. [https://trace.tennessee.edu/cgi/viewcontent.cgi?article=1358&context=pursuit](https://trace.tennessee.edu/cgi/viewcontent.cgi?article=1358&context=pursuit)
+
+The Human Memory. (2022, May 20). _Declarative memory and procedural memory: Explicit & implicit_. The Human Memory. [https://human-memory.net/explicit-implicit-memory/#Introduction_to_Declarative_and_Procedural_Memory](https://human-memory.net/explicit-implicit-memory/#Introduction_to_Declarative_and_Procedural_Memory)
