@@ -89,7 +89,7 @@ The backbone of almost every feature in FLIVR is the function "OnHover" located 
 Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked, as well as all of the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button, the position of the player is saved.
 
 ![screenshot](/../master/media/Menu/SaveData_Top.png)
-<br /> **Fig 6. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
+<br /> **Fig 6. SaveData: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
 
 After exploring the nearby area you will come across a NPC that needs help gathering flowers. Hovering the ray interactor on him will change his state from 0->1 and give you the option to press A to see written instructions above him (state 2) or B to start the activity. When the activity starts(state 3), the flowers he needs you to gather will appear on your HUD and will appear for a short time in written form above him. 
 
@@ -108,19 +108,27 @@ After gathering the required amount of each flower (currently, gathering more th
 ![screenshot](/../master/media/Gameplay/Finished_flower_quest.jpg)
 **Fig 10. Player presses B button on NPC to hand over the flowers and finish their quest.**
 
-
+This part of the SaveData deals with the scoring of the Multiple Choice Activity. Objects appearing at the top of the list need the most improvement and have the lowest average score based on a formula that uses incorrect clicks and average time before a correct click. In the activity, 8 objects are used for each playthrough, 4 of the objects are picked randomly from the 10 worst object scores and then the other 4 are randomly picked from the rest of the objects in the activity.
 
 ![screenshot](/../master/media/Menu/SaveData_Middle.png)
-<br /> **Fig 11. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
+<br /> **Fig 11. SaveData Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
+
+Like the Flower Quest, hovering the NPC changes the state of the game to 1, pressing A changes it to 2 and shows the instructions, and pressing B changes the state to 3. When the actiity starts, the player's score starts at 1,000,000 and for every milisecond the score decreases by 15 as well as 5000 for every inccorect click.  
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Start.jpg)
 **Fig 12. Player hovers over NPC before starting Multiple Choice Activity.**
 
+While in the the activity area, the HUD will not display the name of the objects when you hover them and hearing pronunciations will be unavailable. Instead, the HUD randomly displays one of the object that the player needs to select. 
+
 ![screenshot](/../master/media/Gameplay/Before_Multi_Press.jpg)
 **Fig 13. HUD displays name of the object that needs to be chosen by player.**
 
+The activity continues until all objects are correctly chosen.
+
 ![screenshot](/../master/media/Gameplay/After_Multi_Press.jpg)
 **Fig 14. HUD displays new object that needs to be chosen by player, correctly chosen objects become uninstantiated.**
+
+If the player finishes the activity and achieves a top 10 score, they are prompted to enter their initials so that their score can be added to the high scores. 
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Highscore.jpg)
 **Fig 15. Displays if player achieves a top 10 score. Player can enter their initials (up to 3 letters).**
@@ -128,8 +136,12 @@ After gathering the required amount of each flower (currently, gathering more th
 ![screenshot](/../master/media/Gameplay/Updated_High_Score.jpg)
 **Fig 16. Updated high scores (new score is under initials AAA).**
 
+The last section of the SaveData contains the total Multiple Choice Activity times for the highscores and the top 10 high scores.  
+
 ![screenshot](/../master/media/Menu/SaveData_Bottom.png)
-<br /> **Fig 17. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
+<br /> **Fig 17. SaveData continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
+
+
 
 ## Test Plan: (Test Plan Link)
 
