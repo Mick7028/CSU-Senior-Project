@@ -113,7 +113,7 @@ This part of the SaveData deals with the scoring of the Multiple Choice Activity
 ![screenshot](/../master/media/Menu/SaveData_Middle.png)
 <br /> **Fig 11. SaveData Continued:  List of game objects in Multiple Choice Activity ordered top-down from the lowest average score to the highest average score.**
 
-Like the Flower Quest, hovering the NPC changes the state of the game to 1, pressing A changes it to 2 and shows the instructions, and pressing B changes the state to 3. When the activity starts, the player's score starts at 1,000,000 and for every millisecond, the score decreases by 15 as well as 5000 for every incorrect click.
+Like the Flower Quest, hovering the NPC changes the state of the activity to 1, pressing A changes it to 2 and shows the instructions, and pressing B changes the state to 3. When the activity starts, the player's score starts at 1,000,000 and for every millisecond, the score decreases by 15 as well as 5000 for every incorrect click.
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Start.jpg)
 **Fig 12. Player hovers over NPC before starting Multiple Choice Activity.**
