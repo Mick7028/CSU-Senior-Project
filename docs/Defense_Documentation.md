@@ -66,7 +66,7 @@ Version: LTS 2021.3.26f1**
 ![screenshot](Menu/Main_Menu.png)
 **Fig 1. Main Menu**
 
-![screenshot](/../media/Menu/Game_Controls.png)
+![screenshot](/../blob/master/media/Menu/Game_Controls.png)
 **Fig 2. Game Controls**
 
 ![screenshot](media/Menu/High_Scores.png)
