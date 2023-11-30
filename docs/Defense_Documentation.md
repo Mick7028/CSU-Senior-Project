@@ -1,4 +1,4 @@
-﻿## Foreign Language Immersion Virtual Reality (FLIVR) Defense Documentation
+﻿# Foreign Language Immersion Virtual Reality (FLIVR) Defense Documentation
 
 **Student: Michael Nicholson**
 
@@ -8,13 +8,13 @@
 
 **Project Advisor: Dr. Sean Hayes**
 
-### Statement of Purpose:
+## Statement of Purpose:
 
 There are two primary approaches to foreign language acquisition: traditional or academic learning and immersive learning. Academic learning is geared towards attaining proficiency, which involves achieving a systematic understanding of vocabulary, grammar, writing, and practical application. Fluency in a language is a sign of how comfortable and easy it is for a person to utilize the proficiency they possess. Immersive language learning’s main byproduct is fluency and is what everyone experiences learning their native language. Immersive language learning inherently yields fluency, mirroring the natural progression observed in acquiring one's native language.
 
 According to former CEO Michael Schutzler of LiveMocha, a language learning social media site later bought by Rossetta Stone, traditional classroom-based language training results in a 99.5% failure rate of achieving basic conversational fluency (Schutzler). I believe this failure rate is due to methodology of the teaching and a misunderstanding of how the brain chooses to retain and recall information. Foreign Language Immersion Virtual Reality (FLIVR) aims have the opposite approach of traditional methodology which focuses on using only declarative (explicit) memory, towards one that focuses more on engaging a person’s procedural (implicit) memory.
 
-### Research & Background:
+## Research & Background:
 
 The conventional perspective on language learning often stems from experiences in mandatory high school classes, where the emphasis is placed on continuous and rigorous study of languages such as Spanish or French. While dedicated studying can certainly expedite progress, it is insufficient for achieving fluency. Merely engaging explicit memory without addressing other cognitive processes essential for natural language use hinders the desired outcome of language acquisition.
 
@@ -24,7 +24,7 @@ Foreign Language Immersion Virtual Reality attempts to address this issue by pri
 
 An example of a practical application of this approach could be demonstrated by a chef seeking to learn ingredient and tool names in a different language. Beyond conventional flashcards, the chef engages with recipes written in the target language, labeling ingredients and tools accordingly. This immersive exposure ensures repeated subconscious encounters with the language, prompting the brain to adapt and form associations without reliance on the native language. Gradually, individuals adopting this methodology develop a "second brain," enabling a seamless transition between their native language and the target language, eliminating the constant need for translation.
 
-### Project Languages, Software, and Hardware:
+## Project Languages, Software, and Hardware:
 
 **Project Language: C#**
 
@@ -57,11 +57,13 @@ Version: LTS 2021.3.26f1**
 
  - Build: 22621.2715
 
-### Project Requirements: [Requirements](https://github.com/Mick7028/CSU-Senior-Project/blob/ad047f2edbd79d43e1cad58ae43027efb46fcc01/docs/Requirements%20Document%20Fall%202023.pdf/)
+## Project Requirements: [Requirements](https://github.com/Mick7028/CSU-Senior-Project/blob/ad047f2edbd79d43e1cad58ae43027efb46fcc01/docs/Requirements%20Document%20Fall%202023.pdf/)
 
-### Project Implementation Description & Explanation:
+## Project Implementation Description & Explanation:
 [**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
 [**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
+
+
 
 ![screenshot](/../master/media/Menu/Main_Menu.png)
 **Fig 1. Main Menu**
@@ -111,17 +113,17 @@ Version: LTS 2021.3.26f1**
 ![screenshot](/../master/media/Menu/SaveData_Bottom.png)
 **Fig 16. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
 
-### Test Plan: (Test Plan Link)
+## Test Plan: (Test Plan Link)
 
-### Test Results: (Test Results)
+## Test Results: (Test Results)
 
-### Challenges Overcome:
+## Challenges Overcome:
 
 Undertaking the development of a virtual reality game for my senior project was a significant learning experience; one I approach with a sense of reflection and growth. Embarking on this journey without any previous game development experience, I naively chose to create a virtual reality experience, with the vision of seamlessly incorporating language immersion into a realistic city setting. Over the course of 2 ½ years, the journey took unforeseeable turns which included transitioning from Unreal Engine to Unity, acquiring proficiency in C#, and navigating the intricacies of managing a JSON database. Despite facing challenges that extended the project timeline and led to a final product diverging from my initial vision, the valuable insights gained from this ambitious undertaking outweigh the mental anguish I felt all throughout the construction.
 
 I encountered a copious number of technical hurdles, ranging from everyday bugs in the GameManager script to unpredictable crashes in both Unity and QuestLink. Moreover, encounters with unresolvable Unity and Oculus bugs necessitated the development of alternative strategies to circumvent these obstacles. Notably, a persistent issue surfaced during the implementation of high score functionality within the multiple-choice activity. Prompting users to enter their initials upon achieving a new high score posed an unforeseen challenge—Oculus' virtual keyboard failed to appear both in the editor and post-build to the headset. I later discovered that this dilemma, linked to the use of XR Interaction Toolkit instead of Oculus Integration, had persisted over the years, despite community grievances on forums. Unfortunately, the only solution available involved hardcoding a keyboard into the game, an endeavor that could have been mitigated had I opted for Oculus Integration, where a virtual keyboard seamlessly appears upon selecting the input field.
 
-### Future Enhancements:
+## Future Enhancements:
 
 Many enhancements can be made to this program including voice recognition to help the user practice their pronunciation, more activities and game objects, and improved ways for users to track their progress. With the recent release of the Oculus Quest 3 my plans for this project have shifted to researching the capabilities of augmented reality (AR) instead.
 
@@ -129,10 +131,10 @@ The Quest 3 features color passthrough and has a much wider field of view than t
 
 This technology could lead to more sophisticated active learning opportunities, incorporating real-life objects and activities in one's home. AI could dynamically change any text observed in real-time into the target language, facilitating activities such as reading books entirely in a different language, or the headset could replace specific vocabulary and phrases, providing an effective method for gradual language script adaptation while allowing users to enjoy their preferred content.
 
-### Defense Presentation Slides: (Presentation Link)
+## Defense Presentation Slides: (Presentation Link)
 
 
-### References:
+## References:
 
 Brito, A. C. (2017). _Effects of Language Immersion versus Classroom Exposure on Advanced French Learners: An ERP Study_. Pursuit - The Journal of Undergraduate Research at The University of Tennessee. [https://trace.tennessee.edu/cgi/viewcontent.cgi?article=1358&context=pursuit](https://trace.tennessee.edu/cgi/viewcontent.cgi?article=1358&context=pursuit)
 
