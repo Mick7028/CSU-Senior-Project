@@ -86,7 +86,7 @@ The backbone of almost every feature in FLIVR is the function "OnHover" located 
 ![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
 **Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database array "InteractedObjects".**
 
-Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked as well as all the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button the position of the player is saved.
+Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked, as well as all of the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button, the position of the player is saved.
 
 ![screenshot](/../master/media/Menu/SaveData_Top.png)
 <br /> **Fig 6. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
