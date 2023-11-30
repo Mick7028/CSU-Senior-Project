@@ -63,7 +63,7 @@ Version: LTS 2021.3.26f1**
 [**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
 [**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
 
-![screenshot](media/Menu/Main Menu.png)
+![screenshot](Menu/Main Menu.png)
 **Fig 1. Main Menu**
 
 ![screenshot](media/Menu/Game Controls.png)
