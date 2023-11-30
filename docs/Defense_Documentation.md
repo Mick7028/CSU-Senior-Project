@@ -81,13 +81,17 @@ When FLIVR starts, the Main Menu is instantiated and the player has three main o
 
 ### Game Play and Save Functionality
 
-The backbone of almost every feature in FLIVR is the function "OnHover" located in Hoverable.cs. Hovering over an object displays the name of the object, allows the player to press A to hear it's pronunciation which adds it to the "InteractedObjects" array in the SaveData.json, and allows for the player to perform the actions needed in both the FlowerQuest and the Multiple Choice Activity.  
+The backbone of almost every feature in FLIVR is the function "OnHover" located in Hoverable.cs. Hovering over an object displays the name of the object, allows the player to press A to hear it's pronunciation which adds it to the "InteractedObjects" array in the SaveData.json, and allows for the player to perform the actions needed in both the FlowerQuest and the Multiple Choice Activity. Both activities use the B button for their functionality. 
 
 ![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
 **Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database array "InteractedObjects".**
 
+Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked as well as all the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button the position of the player is saved.
+
 ![screenshot](/../master/media/Menu/SaveData_Top.png)
 <br /> **Fig 6. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
+
+After exploring the nearby area you will come across a NPC that needs help gathering flowers. Hovering the ray interactor on him will change his state from 0->1 and give you the option to press A to see written instructions above him (state 2) or B to start the activity. When the activity starts(state 3), the flowers he needs you to gather will appear on your HUD and will appear for a short time in written form above him. 
 
 ![screenshot](/../master/media/Gameplay/Flower_Quest_Start.jpg)
 **Fig 7. Player hovers over NPC before starting Flower Quest**
@@ -95,8 +99,12 @@ The backbone of almost every feature in FLIVR is the function "OnHover" located 
 ![screenshot](/../master/media/Gameplay/Before_Flower_Press.jpg)
 **Fig 8. Before picking flower, Heads Up Display(HUD) shows how many of each flower needs to be picked.**
 
+When a flower the NPC needs is picked, it becomes uninstantiated for around 5 seconds and then reappears. The player cannot pick flowers that are uneeded and can only pick flowers while in state 3 of the Flower Quest. When the player is close enough to a flower its mesh collider dissapears so they can walk through them.
+
 ![screenshot](/../master/media/Gameplay/After_Flower_Press.jpg)
 **Fig 9. Player presses B button to pick flower, HUD displays updated inventory of flowers.**
+
+After gathering the required amount of each flower (currently gathering more than the needed amount still ends the quest because there was not a practical way to remove specific flowers from the player's inventory), the player has to go back to the NPC and press B while hovering on him. The activity moves to state 4 which causes the inventory to be cleared, FlowerQuestCompletions in the SaveData to increase by 1, and the Flower Quest resets so it can be played again.
 
 ![screenshot](/../master/media/Gameplay/Finished_flower_quest.jpg)
 **Fig 10. Player presses B button on NPC to hand over the flowers and finish their quest.**
