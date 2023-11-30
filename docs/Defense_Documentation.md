@@ -79,8 +79,12 @@ When FLIVR starts, the Main Menu is instantiated and the player has three main o
 ![screenshot](/../master/media/Menu/Game_Controls.png)
 **Fig 4. Game Controls**
 
+### Game Play and Save Functionality
+
+The backbone of almost every feature in FLIVR is the function "OnHover" located in Hoverable.cs. Hovering over an object displays the name of the object, allows the player to press A to hear it's pronunciation which adds it to the "InteractedObjects" array in the SaveData.json, and allows for the player to perform the actions needed in both the FlowerQuest and the Multiple Choice Activity.  
+
 ![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
-**Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database as interaced with.**
+**Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database array "InteractedObjects".**
 
 ![screenshot](/../master/media/Menu/SaveData_Top.png)
 **Fig 6. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
