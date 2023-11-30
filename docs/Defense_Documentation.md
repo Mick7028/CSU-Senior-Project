@@ -63,13 +63,13 @@ Version: LTS 2021.3.26f1**
 [**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
 [**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
 
-![screenshot](Menu/Main Menu.png)
+![screenshot](Menu/Main_Menu.png)
 **Fig 1. Main Menu**
 
-![screenshot](media/Menu/Game Controls.png)
+![screenshot](/../media/Menu/Game_Controls.png)
 **Fig 2. Game Controls**
 
-![screenshot](media/Menu/High Scores.png)
+![screenshot](media/Menu/High_Scores.png)
 **Fig 3. High Scores**
 
 ![screenshot](Gameplay/Hover_Name.jpg)
