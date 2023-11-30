@@ -72,7 +72,7 @@ Version: LTS 2021.3.26f1**
 ![screenshot](media/Menu/High Scores.png)
 **Fig 3. High Scores**
 
-![screenshot](master/media/Gameplay/Hover_Name.jpg)
+![screenshot](CSU-Senior-Project/blob/master/media/Gameplay/Hover_Name.jpg)
 **Fig 4. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database as interaced with.**
 
 ![screenshot](media/Menu/SaveData_Top.png)
