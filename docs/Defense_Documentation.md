@@ -104,10 +104,11 @@ When a flower the NPC needs is picked, it becomes uninstantiated for around 5 se
 ![screenshot](/../master/media/Gameplay/After_Flower_Press.jpg)
 **Fig 9. Player presses B button to pick flower, HUD displays updated inventory of flowers.**
 
-After gathering the required amount of each flower (currently gathering more than the needed amount still ends the quest because there was not a practical way to remove specific flowers from the player's inventory), the player has to go back to the NPC and press B while hovering on him. The activity moves to state 4 which causes the inventory to be cleared, FlowerQuestCompletions in the SaveData to increase by 1, and the Flower Quest resets so it can be played again.
-
+After gathering the required amount of each flower (currently, gathering more than the needed amount still ends the quest because there was not a practical way to remove specific flowers from the player's inventory), the player has to go back to the NPC and press 'B' while hovering over him. The activity then moves to state 4, causing the inventory to be cleared, FlowerQuestCompletions in the SaveData to increase by 1, and the Flower Quest to reset so it can be played again.
 ![screenshot](/../master/media/Gameplay/Finished_flower_quest.jpg)
 **Fig 10. Player presses B button on NPC to hand over the flowers and finish their quest.**
+
+
 
 ![screenshot](/../master/media/Menu/SaveData_Middle.png)
 <br /> **Fig 11. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
