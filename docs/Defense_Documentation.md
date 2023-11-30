@@ -65,7 +65,7 @@ Version: LTS 2021.3.26f1**
 
 ### Main Menu
 
-When FLIVR starts, the Main Menu is instantiated and the player has three main options to choose from: Start Game, High Scores, and the Game Instructions. High Scores shows the top 10 Multiple Choice Activity scores. Selecting Game Instructions brings you to a buffer menu that allows you to select either the Game Controls Menu or the Game Instructions Menu (future feature that will include video tutorials of the activities).
+When FLIVR starts, the Main Menu is instantiated and the player has three main options to choose from: Start Game, High Scores, and the Game Instructions. Selecting Start Game uninstantiates the Main Menu, selecting High Scores shows the top 10 Multiple Choice Activity scores. Selecting Game Instructions brings you to a buffer menu that allows you to select either the Game Controls Menu or the Game Instructions Menu (future feature that will include video tutorials of the activities).
 
 ![screenshot](/../master/media/Menu/Main_Menu.png)
 **Fig 1. Main Menu**
