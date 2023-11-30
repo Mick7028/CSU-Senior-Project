@@ -141,7 +141,8 @@ The last section of the SaveData contains the total Multiple Choice Activity tim
 ![screenshot](/../master/media/Menu/SaveData_Bottom.png)
 <br /> **Fig 17. SaveData continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
 
-
+![screenshot](/../master/media/Gameplay/Map.png)
+**Fig 18. Overhead view of the game.**
 
 ## Test Plan: (Test Plan Link)
 
