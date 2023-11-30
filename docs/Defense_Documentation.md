@@ -102,7 +102,7 @@ The backbone of almost every feature in FLIVR is the function "OnHover" located 
 **Fig 10. Player presses B button on NPC to hand over the flowers and finish their quest.**
 
 ![screenshot](/../master/media/Menu/SaveData_Middle.png)
-**Fig 11. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
+<br /> **Fig 11. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Start.jpg)
 **Fig 12. Player hovers over NPC before starting Multiple Choice Activity.**
@@ -120,7 +120,7 @@ The backbone of almost every feature in FLIVR is the function "OnHover" located 
 **Fig 16. Updated high scores (new score is under initials AAA).**
 
 ![screenshot](/../master/media/Menu/SaveData_Bottom.png)
-**Fig 17. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
+<br /> **Fig 17. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
 
 ## Test Plan: (Test Plan Link)
 
