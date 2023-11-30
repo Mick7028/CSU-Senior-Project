@@ -63,19 +63,19 @@ Version: LTS 2021.3.26f1**
 [**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
 [**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
 
-![screenshot](media/menu/Main Menu.png)
+![screenshot](media/Menu/Main Menu.png)
 **Fig 1. Main Menu**
 
-![screenshot](media/menu/Game Controls.png)
+![screenshot](media/Menu/Game Controls.png)
 **Fig 2. Game Controls**
 
-![screenshot](media/menu/High Scores.png)
+![screenshot](media/Menu/High Scores.png)
 **Fig 3. High Scores**
 
 ![screenshot](media/Gameplay/Hover_Name.jpg)
 **Fig 4. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database as interaced with.**
 
-![screenshot](media/menu/SaveData_Top.png)
+![screenshot](media/Menu/SaveData_Top.png)
 **Fig 5. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
 
 ![screenshot](media/Gameplay/Flower_Quest_Start.jpg)
@@ -90,7 +90,7 @@ Version: LTS 2021.3.26f1**
 ![screenshot](media/Gameplay/Finished_flower_quest.jpg)
 **Fig 9. Player presses B button on NPC to hand over the flowers and finish their quest.**
 
-![screenshot](media/menu/SaveData_Middle.png)
+![screenshot](media/Menu/SaveData_Middle.png)
 **Fig 10. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
 
 ![screenshot](media/Gameplay/Multiplayer_Start.jpg)
@@ -108,7 +108,7 @@ Version: LTS 2021.3.26f1**
 ![screenshot](media/Gameplay/Updated_High_Score.jpg)
 **Fig 15. Updated high scores (new score is under initials AAA).**
 
-![screenshot](media/menu/SaveData_Bottom.png)
+![screenshot](media/Menu/SaveData_Bottom.png)
 **Fig 16. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
 
 ### Test Plan: (Test Plan Link)
