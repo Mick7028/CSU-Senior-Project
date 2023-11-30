@@ -63,52 +63,52 @@ Version: LTS 2021.3.26f1**
 [**Source Code**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src)
 [**Unity Scripts**](https://github.com/Mick7028/CSU-Senior-Project/tree/master/src/Scripts)
 
-![screenshot](Menu/Main_Menu.png)
+![screenshot](/../master/media/Menu/Main_Menu.png)
 **Fig 1. Main Menu**
 
 ![screenshot](/../master/media/Menu/Game_Controls.png)
 **Fig 2. Game Controls**
 
-![screenshot](media/Menu/High_Scores.png)
+![screenshot](/../master/media/Menu/High_Scores.png)
 **Fig 3. High Scores**
 
-![screenshot](Gameplay/Hover_Name.jpg)
+![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
 **Fig 4. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database as interaced with.**
 
-![screenshot](media/Menu/SaveData_Top.png)
+![screenshot](/../master/media/Menu/SaveData_Top.png)
 **Fig 5. Save Data: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
 
-![screenshot](media/Gameplay/Flower_Quest_Start.jpg)
+![screenshot](/../master/media/Gameplay/Flower_Quest_Start.jpg)
 **Fig 6. Player hovers over NPC before starting Flower Quest**
 
-![screenshot](media/Gameplay/Before_Flower_Press.jpg)
+![screenshot](/../master/media/Gameplay/Before_Flower_Press.jpg)
 **Fig 7. Before picking flower, Heads Up Display(HUD) shows how many of each flower needs to be picked.**
 
-![screenshot](media/Gameplay/After_Flower_Press.jpg)
+![screenshot](/../master/media/Gameplay/After_Flower_Press.jpg)
 **Fig 8. Player presses B button to pick flower, HUD displays updated inventory of flowers.**
 
-![screenshot](media/Gameplay/Finished_flower_quest.jpg)
+![screenshot](/../master/media/Gameplay/Finished_flower_quest.jpg)
 **Fig 9. Player presses B button on NPC to hand over the flowers and finish their quest.**
 
-![screenshot](media/Menu/SaveData_Middle.png)
+![screenshot](/../master/media/Menu/SaveData_Middle.png)
 **Fig 10. Save Data Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
 
-![screenshot](media/Gameplay/Multiplayer_Start.jpg)
+![screenshot](/../master/media/Gameplay/Multiplayer_Start.jpg)
 **Fig 11. Player hovers over NPC before starting Multiple Choice Activity.**
 
-![screenshot](media/Gameplay/Before_Multi_Press.jpg)
+![screenshot](/../master/media/Gameplay/Before_Multi_Press.jpg)
 **Fig 12. HUD displays name of the object that needs to be chosen by player.**
 
-![screenshot](media/Gameplay/After_Multi_Press.jpg)
+![screenshot](/../master/media/Gameplay/After_Multi_Press.jpg)
 **Fig 13. HUD displays new object that needs to be chosen by player, correctly chosen objects become uninstantiated.**
 
-![screenshot](media/Gameplay/Multiplayer_Highscore.jpg)
+![screenshot](/../master/media/Gameplay/Multiplayer_Highscore.jpg)
 **Fig 14. Displays if player achieves a top 10 score. Player can enter their initials (up to 3 letters).**
 
-![screenshot](media/Gameplay/Updated_High_Score.jpg)
+![screenshot](/../master/media/Gameplay/Updated_High_Score.jpg)
 **Fig 15. Updated high scores (new score is under initials AAA).**
 
-![screenshot](media/Menu/SaveData_Bottom.png)
+![screenshot](/../master/media/Menu/SaveData_Bottom.png)
 **Fig 16. Save Data continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
 
 ### Test Plan: (Test Plan Link)
