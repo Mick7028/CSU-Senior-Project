@@ -65,8 +65,7 @@ Version: LTS 2021.3.26f1**
 
 ### Main Menu
 
-When FLIVR starts, the Main Menu is instantiated and the player has three main options to choose from: Start Game, High Scores, and the Game Instructions. Selecting Start Game uninstantiates the Main Menu, selecting High Scores shows the top 10 Multiple Choice Activity scores. Selecting Game Instructions brings you to a buffer menu that allows you to select either the Game Controls Menu or the Game Instructions Menu (future feature that will include video tutorials of the activities).
-
+When FLIVR starts, the Main Menu is instantiated, and the player has three main options to choose from: Start Game, High Scores, and Game Instructions. Selecting Start Game uninstantiates the Main Menu, selecting High Scores shows the top 10 Multiple Choice Activity scores. Selecting Game Instructions brings you to a buffer menu that allows you to select either the Game Controls Menu or the Game Instructions Menu (a future feature that will include video tutorials of the activities).
 ![screenshot](/../master/media/Menu/Main_Menu.png)
 **Fig 1. Main Menu**
 
@@ -81,65 +80,66 @@ When FLIVR starts, the Main Menu is instantiated and the player has three main o
 
 ### Game Play and Save Functionality
 
-The backbone of almost every feature in FLIVR is the function "OnHover" located in Hoverable.cs. Hovering over an object displays the name of the object, allows the player to press A to hear it's pronunciation which adds it to the "InteractedObjects" array in the SaveData.json, and allows for the player to perform the actions needed in both the FlowerQuest and the Multiple Choice Activity. Both activities use the B button for their functionality. 
+The backbone of almost every feature in FLIVR is the function "OnHover" located in Hoverable.cs. Hovering over an object displays the name of the object, allows the player to press A to hear its pronunciation, which adds it to the "InteractedObjects" array in the SaveData.json, and allows the player to perform the actions needed in both the FlowerQuest and the Multiple Choice Activity. Both activities use the B button for their functionality.
 
 ![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
-**Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database array "InteractedObjects".**
+**Fig 5. Player hovers ray interactor over a tree to display its name. If the A button is pressed, the player will hear its pronunciation, and it will be added to the database array "InteractedObjects".**
 
-Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked, as well as all of the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button, the position of the player is saved.
+Below is the first part of the SaveData. Completions of both the Flower Quest and the Multiple Choice Activity are tracked, as well as all the objects that the player has interacted with and the last saved position of the player. After every completion of an activity and every time the player presses the menu button, the player's position is saved.
 
 ![screenshot](/../master/media/Menu/SaveData_Top.png)
-<br /> **Fig 6. SaveData: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed A button while hovering) and last saved player position on map (the game saves player postition data after completing an activity and every time they open the main menu).**
+<br /> **Fig 6. SaveData: Amount of Times Played for Multiple Choice Activity and Flower Quest. Objects that have been interacted with (pressed the A button while hovering) and the last saved player position on the map (the game saves player position data after completing an activity and every time they open the main menu).**
 
-After exploring the nearby area you will come across a NPC that needs help gathering flowers. Hovering the ray interactor on him will change his state from 0->1 and give you the option to press A to see written instructions above him (state 2) or B to start the activity. When the activity starts(state 3), the flowers he needs you to gather will appear on your HUD and will appear for a short time in written form above him. 
+After exploring the nearby area, you will come across an NPC that needs help gathering flowers. Hovering the ray interactor on him will change his state from 0 to 1 and give you the option to press A to see written instructions above him (state 2) or B to start the activity. When the activity starts (state 3), the flowers he needs you to gather will appear on your HUD and will appear for a short time in written form above him.
 
 ![screenshot](/../master/media/Gameplay/Flower_Quest_Start.jpg)
 **Fig 7. Player hovers over NPC before starting Flower Quest**
 
 ![screenshot](/../master/media/Gameplay/Before_Flower_Press.jpg)
-**Fig 8. Before picking flower, Heads Up Display(HUD) shows how many of each flower needs to be picked.**
+**Fig 8. Before picking a flower, Heads Up Display (HUD) shows how many of each flower needs to be picked.**
 
-When a flower the NPC needs is picked, it becomes uninstantiated for around 5 seconds and then reappears. The player cannot pick flowers that are uneeded and can only pick flowers while in state 3 of the Flower Quest. When the player is close enough to a flower its mesh collider dissapears so they can walk through them.
+When a flower the NPC needs is picked, it becomes uninstantiated for around 5 seconds and then reappears. The player cannot pick flowers that are unneeded and can only pick flowers while in state 3 of the Flower Quest. When the player is close enough to a flower, its mesh collider disappears so they can walk through them.
 
 ![screenshot](/../master/media/Gameplay/After_Flower_Press.jpg)
-**Fig 9. Player presses B button to pick flower, HUD displays updated inventory of flowers.**
+**Fig 9. Player presses B button to pick flower; HUD displays updated inventory of flowers.**
 
 After gathering the required amount of each flower (currently, gathering more than the needed amount still ends the quest because there was not a practical way to remove specific flowers from the player's inventory), the player has to go back to the NPC and press 'B' while hovering over him. The activity then moves to state 4, causing the inventory to be cleared, FlowerQuestCompletions in the SaveData to increase by 1, and the Flower Quest to reset so it can be played again.
+
 ![screenshot](/../master/media/Gameplay/Finished_flower_quest.jpg)
 **Fig 10. Player presses B button on NPC to hand over the flowers and finish their quest.**
 
-This part of the SaveData deals with the scoring of the Multiple Choice Activity. Objects appearing at the top of the list need the most improvement and have the lowest average score based on a formula that uses incorrect clicks and average time before a correct click. In the activity, 8 objects are used for each playthrough, 4 of the objects are picked randomly from the 10 worst object scores and then the other 4 are randomly picked from the rest of the objects in the activity.
+This part of the SaveData deals with the scoring of the Multiple Choice Activity. Objects appearing at the top of the list need the most improvement and have the lowest average score based on a formula that uses incorrect clicks and average time before a correct click. In the activity, 8 objects are used for each playthrough, 4 of the objects are picked randomly from the 10 worst object scores, and then the other 4 are randomly picked from the rest of the objects in the activity.
 
 ![screenshot](/../master/media/Menu/SaveData_Middle.png)
-<br /> **Fig 11. SaveData Continued: List of game objects in Multiple Choice Activity which is ordered top-down from lowest average score to highest average score.**
+<br /> **Fig 11. SaveData Continued:  List of game objects in Multiple Choice Activity ordered top-down from the lowest average score to the highest average score.**
 
-Like the Flower Quest, hovering the NPC changes the state of the game to 1, pressing A changes it to 2 and shows the instructions, and pressing B changes the state to 3. When the actiity starts, the player's score starts at 1,000,000 and for every milisecond the score decreases by 15 as well as 5000 for every inccorect click.  
+Like the Flower Quest, hovering the NPC changes the state of the game to 1, pressing A changes it to 2 and shows the instructions, and pressing B changes the state to 3. When the activity starts, the player's score starts at 1,000,000 and for every millisecond, the score decreases by 15 as well as 5000 for every incorrect click.
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Start.jpg)
 **Fig 12. Player hovers over NPC before starting Multiple Choice Activity.**
 
-While in the the activity area, the HUD will not display the name of the objects when you hover them and hearing pronunciations will be unavailable. Instead, the HUD randomly displays one of the object that the player needs to select. 
+While in the activity area, the HUD will not display the name of the objects when you hover over them, and hearing pronunciations will be unavailable. Instead, the HUD randomly displays one of the objects that the player needs to select.
 
 ![screenshot](/../master/media/Gameplay/Before_Multi_Press.jpg)
-**Fig 13. HUD displays name of the object that needs to be chosen by player.**
+**Fig 13. HUD displays the name of the object that needs to be chosen by the player.**
 
 The activity continues until all objects are correctly chosen.
 
 ![screenshot](/../master/media/Gameplay/After_Multi_Press.jpg)
-**Fig 14. HUD displays new object that needs to be chosen by player, correctly chosen objects become uninstantiated.**
+**Fig 14. HUD displays a new object that needs to be chosen by the player; correctly chosen objects become uninstantiated.**
 
-If the player finishes the activity and achieves a top 10 score, they are prompted to enter their initials so that their score can be added to the high scores. 
+If the player finishes the activity and achieves a top 10 score, they are prompted to enter their initials so that their score can be added to the high scores.
 
 ![screenshot](/../master/media/Gameplay/Multiplayer_Highscore.jpg)
-**Fig 15. Displays if player achieves a top 10 score. Player can enter their initials (up to 3 letters).**
+**Fig 15. Displays if the player achieves a top 10 score. The player can enter their initials (up to 3 letters).**
 
 ![screenshot](/../master/media/Gameplay/Updated_High_Score.jpg)
 **Fig 16. Updated high scores (new score is under initials AAA).**
 
-The last section of the SaveData contains the total Multiple Choice Activity times for the highscores and the top 10 high scores.  
+The last section of the SaveData contains the total Multiple Choice Activity times for the high scores and the top 10 high scores.  
 
 ![screenshot](/../master/media/Menu/SaveData_Bottom.png)
-<br /> **Fig 17. SaveData continued: List of fastest total times (in miliseconds) of the Multiple Choice Activity and the high scores for it.**
+<br /> **Fig 17. SaveData continued: List of fastest total times (in milliseconds) of the Multiple Choice Activity and the high scores for it.**
 
 ![screenshot](/../master/media/Gameplay/Map.png)
 **Fig 18. Overhead view of the game.**
