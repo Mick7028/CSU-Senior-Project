@@ -70,14 +70,14 @@ When FLIVR starts, the Main Menu is instantiated and the player has three main o
 ![screenshot](/../master/media/Menu/Main_Menu.png)
 **Fig 1. Main Menu**
 
+![screenshot](/../master/media/Menu/High_Scores.png)
+**Fig 2. High Scores**
+
 ![screenshot](/../master/media/Menu/Game_Controls_Instructions.png)
-**Fig 2. Game Controls and Instructions**
+**Fig 3. Game Controls and Instructions**
 
 ![screenshot](/../master/media/Menu/Game_Controls.png)
-**Fig 3. Game Controls**
-
-![screenshot](/../master/media/Menu/High_Scores.png)
-**Fig 4. High Scores**
+**Fig 4. Game Controls**
 
 ![screenshot](/../master/media/Gameplay/Hover_Name.jpg)
 **Fig 5. Player hovers ray interactor over a tree to display it's name. If A button is pressed, player will hear its pronunciation and it will be added to database as interaced with.**
