@@ -144,7 +144,7 @@ The last section of the SaveData contains the total Multiple Choice Activity tim
 ![screenshot](/../master/media/Gameplay/Map.png)
 **Fig 18. Overhead view of the game.**
 
-## Test Plan: (Test Plan Link)
+## Test Plan: [Usability Test Plan](https://github.com/Mick7028/CSU-Senior-Project/blob/e0e805138a8359e78de74ddac491543303d433c3/docs/FLIVR%20Usability%20Test%20Plan%20Fall%202023.pdf)
 
 ## Test Results: (Test Results)
 
@@ -162,7 +162,7 @@ The Quest 3 features color passthrough and has a much wider field of view than t
 
 This technology could lead to more sophisticated active learning opportunities, incorporating real-life objects and activities in one's home. AI could dynamically change any text observed in real-time into the target language, facilitating activities such as reading books entirely in a different language, or the headset could replace specific vocabulary and phrases, providing an effective method for gradual language script adaptation while allowing users to enjoy their preferred content.
 
-## Defense Presentation Slides: (Presentation Link)
+## Defense Presentation Slides: [Presentation](https://docs.google.com/presentation/d/1Ukt-c0cK0IgTn6gidnexQyE56ANh-2T5-_ZE45IIm-Q/edit?usp=sharing)
 
 
 ## References:
